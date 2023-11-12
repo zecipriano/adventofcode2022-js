@@ -9,7 +9,7 @@ let sum = 0;
 
 for (const x of arr) {
     n = parseInt(x);
-    
+
     if (isNaN(n)) {
         sum = 0;
         continue;
